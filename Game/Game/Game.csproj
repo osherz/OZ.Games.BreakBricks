@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82940C08-8823-48C7-AF18-80F79E57006F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game</RootNamespace>
+    <AssemblyName>Game</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Characters\Ball.cs" />
+    <Compile Include="Characters\Direction.cs" />
+    <Compile Include="Characters\Interface\IMoveAuto.cs" />
+    <Compile Include="Characters\Interface\IRefCount.cs" />
+    <Compile Include="Characters\Interface\IVisible.cs" />
+    <Compile Include="Characters\Item_ Draw.cs" />
+    <Compile Include="Characters\Interface\IDirection.cs" />
+    <Compile Include="Characters\Interface\IItem.cs" />
+    <Compile Include="Characters\Interface\ITimer.cs" />
+    <Compile Include="Characters\GameObject.cs" />
+    <Compile Include="Characters\Figure.cs" />
+    <Compile Include="Characters\DrawStyle.cs" />
+    <Compile Include="Characters\Item.cs" />
+    <Compile Include="Characters\Interface\IDraw.cs" />
+    <Compile Include="Characters\Interface\IHit.cs" />
+    <Compile Include="Characters\Interface\IGetArea.cs" />
+    <Compile Include="Characters\Interface\IMove.cs" />
+    <Compile Include="Characters\Interface\ILocation.cs" />
+    <Compile Include="Characters\Interface\ISize.cs" />
+    <Compile Include="Characters\Interface\ISpeed.cs" />
+    <Compile Include="Characters\StatusBar.cs" />
+    <Compile Include="ClassZakin.cs" />
+    <Compile Include="Controls\ChooseLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CollectionEventArgs.cs" />
+    <Compile Include="Classes\IconType.cs" />
+    <Compile Include="Classes\Player.cs" />
+    <Compile Include="Classes\PlayerIcon.cs" />
+    <Compile Include="Controls\ButtonsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ButtonsPanel.Designer.cs">
+      <DependentUpon>ButtonsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ColorPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ColorPanel.Designer.cs">
+      <DependentUpon>ColorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Direct.cs" />
+    <Compile Include="Controls\Delegates.cs" />
+    <Compile Include="Controls\GameOption.cs" />
+    <Compile Include="Controls\GenericPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GenericPanel.Designer.cs">
+      <DependentUpon>GenericPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChooseCollection.cs" />
+    <Compile Include="Controls\PlayerNameBoxPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PlayerNameBoxPanel.Designer.cs">
+      <DependentUpon>PlayerNameBoxPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PlayersDetailsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PlayersDetailsPanel.Designer.cs">
+      <DependentUpon>PlayersDetailsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PlayerTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PlayerTable.Designer.cs">
+      <DependentUpon>PlayerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SwitchButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SwitchButton.Designer.cs">
+      <DependentUpon>SwitchButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\Externalmethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ButtonsPanel.resx">
+      <DependentUpon>ButtonsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GenericPanel.resx">
+      <DependentUpon>GenericPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PlayerNameBoxPanel.resx">
+      <DependentUpon>PlayerNameBoxPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PlayersDetailsPanel.resx">
+      <DependentUpon>PlayersDetailsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PlayerTable.resx">
+      <DependentUpon>PlayerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SwitchButton.resx">
+      <DependentUpon>SwitchButton.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Characters\ClassDiagram_Characters.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

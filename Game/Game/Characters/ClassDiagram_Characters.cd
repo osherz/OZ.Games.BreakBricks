@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Characters.Ball" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACgAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Ball.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Characters.DrawGameObject" Collapsed="true">
+    <Position X="6.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAkAACioAAAgACAAAAACEAAAGBAAAAAAAAAA=</HashCode>
+      <FileName>Characters\DrawGameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Characters.Figure" Collapsed="true">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAACgAAAAAAAAAAAAAAAAAAAACBAAAAAA=</HashCode>
+      <FileName>Characters\Figure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Characters.GameObject" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAIAEAAIAAAAAAAAAAAAABAEAAAQAAIEAAAAgAAAA=</HashCode>
+      <FileName>Characters\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Characters.ImgGameObject" Collapsed="true">
+    <Position X="4.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAAAEAAAiBAAAAAAAAAAIAA=</HashCode>
+      <FileName>Characters\ImgGameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Characters.Shape" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwAYAAABAABggEAAIIQAEAaAAAIgAAACACEAgAAQQA=</HashCode>
+      <FileName>Characters\Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Game.Characters.IDraw" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IDraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IGetArea" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IGetArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IGetAreaF" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IGetArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IGetRectangle" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IGetArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IGetRectangleF" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Characters\Interface\IGetArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IGetRegion" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IGetArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IGetPath" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IGetArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHitByXY&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHitByPoint&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHitByArea&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHit&lt;TEventArgs&gt;" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHit" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHitEvent&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IHitEvent" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IHit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ILocation&lt;Txy, TPoint&gt;" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAQAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\ILocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMoveDirection&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMoveTo&lt;TPoint&gt;" Collapsed="true">
+    <Position X="21" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMoveBy&lt;TSize&gt;" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMoveEvent&lt;TEventArgs&gt;" Collapsed="true">
+    <Position X="0.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMoveEvent" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMove&lt;T, TEventArgs&gt;" Collapsed="true">
+    <Position X="0.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.IMove" Collapsed="true">
+    <Position X="0.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\IMove.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ISize&lt;T, TSize&gt;" Collapsed="true">
+    <Position X="22.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAgAEAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\ISize.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ISpeed&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\ISpeed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ISpeed" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\ISpeed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ISpeedF" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\ISpeed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ISpeedEvent&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Interface\ISpeed.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Game.Characters.ITimer" Collapsed="true">
+    <Position X="24.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAKAAAAgAAAAAAAAgAAQQA=</HashCode>
+      <FileName>Characters\Interface\ITimer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Game.Characters.DrawStyle" Collapsed="true">
+    <Position X="21" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\DrawStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
