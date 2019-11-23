@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Break Bricks", "Break Bricks\Break Bricks.csproj", "{D79FA468-633D-4FB4-B694-0416A657FD67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "..\Game\Game\Game.csproj", "{82940C08-8823-48C7-AF18-80F79E57006F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryMethods", "Geometry\Geometry\GeometryMethods.csproj", "{C75217C8-25FD-4CAD-8E2B-4368F7F4F455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryMethods", "..\Geometry\Geometry\GeometryMethods.csproj", "{C75217C8-25FD-4CAD-8E2B-4368F7F4F455}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game\Game.csproj", "{82940C08-8823-48C7-AF18-80F79E57006F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,19 @@ Global
 		{D79FA468-633D-4FB4-B694-0416A657FD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79FA468-633D-4FB4-B694-0416A657FD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79FA468-633D-4FB4-B694-0416A657FD67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82940C08-8823-48C7-AF18-80F79E57006F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82940C08-8823-48C7-AF18-80F79E57006F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82940C08-8823-48C7-AF18-80F79E57006F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82940C08-8823-48C7-AF18-80F79E57006F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C75217C8-25FD-4CAD-8E2B-4368F7F4F455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C75217C8-25FD-4CAD-8E2B-4368F7F4F455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75217C8-25FD-4CAD-8E2B-4368F7F4F455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75217C8-25FD-4CAD-8E2B-4368F7F4F455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82940C08-8823-48C7-AF18-80F79E57006F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82940C08-8823-48C7-AF18-80F79E57006F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82940C08-8823-48C7-AF18-80F79E57006F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82940C08-8823-48C7-AF18-80F79E57006F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A88951A5-9A0D-4BDE-8380-9031FE8A1907}
 	EndGlobalSection
 EndGlobal
